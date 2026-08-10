@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 500vh;
+}
+a{
+    text-decoration: none;
+}
+
+    /* NavBar */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: rgb(239, 184, 184);
+    color: maroon;
+    padding-bottom: 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+nav ul li{
+    list-style: none;
+}
+.card-container h1{
+    text-align: center;
+    color: maroon;
+}
+.card-container{
+    align-items: center;
+}

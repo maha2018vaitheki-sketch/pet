@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 500vh;
+}
+a{
+    text-decoration: none;
+}
+
+    /* NavBar */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: rgb(239, 184, 184);
+    color: maroon;
+    padding-bottom: 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+nav ul li{
+    list-style: none;
+}
+.container{
+    width: 100px;
+    padding: 30px;
+}
+.container img{
+    width: 1200px;  
+}
+h2{
+    text-align: center;
+    color: rgb(141, 14, 14);
+    margin-top: 5px;
+}
+.our-products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-container{
+    width: 320px;
+    padding: 15px 0px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(234, 199, 211);
+}
+.card-container img{
+    width: 260px;
+}
+.Testimonial{
+    margin: 30px 0px;
+}
+.card-testimonials{
+    background-color: rgb(236, 177, 187);
+    width:  auto;
+    margin: 30px 0px;
+    text-align: center;
+}
+.card-testimonials p{
+    display: inline-block;
+    padding-top: 30px;
+    width: 500px;
+}
+h5{
+    text-align: center;
+    font-size: large;
+    margin-top: 3px
+}
+.sellercard-container{
+    display: flex;
+    justify-content: space-around;
+}
+.seller-container{
+    width:300px;
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0px;
+}
+footer{   
+    padding-top: 40px;
+
+}
+h1{
+    text-align: center;
+    color: rgb(96, 6, 6);
+}
+.foot-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: rgb(240, 170, 182);
+    padding-bottom: 30px;
+    color: rgb(78, 9, 9);
+    font-style: bold;
+    border-right: 10px;
+}
+.foot-card li{
+    list-style: none;
+}
+h5{
+    color: rgb(122, 8, 8);
+}
+@keyframes{
+    width: 500px;
+}
